@@ -17,11 +17,3 @@ app.get('/menu', async(request, response)=> {
 
 const api_url = 'https://api.spoonacular.com/mealplanner/generate/';
 const api_key = '4ba06c65001d4c25badad0d618ae9f97';
-// const full_api_url = `${api_url}?${time}?${targetCalories}&appid=${api_key}`;
-
-// axios.get(full_api_url)
-//     .then(response => {
-//       const time = response.timeFrame.day
-//       const cal = response.targetCalories
-//       })
-//     .catch(error => console.log('Error', error));
