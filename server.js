@@ -7,19 +7,6 @@ const axios = require('axios')
 
 app.listen(port ,() => console.log(`Listening to ${port}`))
 
-// const req = https.request(options, res => {
-//   console.log(`statusCode: ${res.statusCode}`)
-
-//   res.on('data', d => {
-//     process.stdout.write(d)
-//   })
-// })
-
-// req.on('error', error => {
-//   console.error(error)
-// })
-
-// req.end()
 
 app.get('/menu', async(request, response)=> {
  const full_url = `${api_url}&appid=${api_key}`
