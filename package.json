@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "server-side for app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "George Chertkov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
